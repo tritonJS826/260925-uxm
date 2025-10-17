@@ -1,16 +1,20 @@
-h2 {
-    background-color: grey;
-    border: 2px solid  yellow;
-    color: brown;
+* {
+  margin: 0;
+  padding: 0;  
 }
 
-p {
-    color: brown;
+h1 {
+    color: red;
 }
 
-
-.super-paragraph {
-    color: blue;
-    font-size: 50px;
+.three {
+    color: green;
 }
 
+#id-one {
+    color: darkblue;
+}
+
+button.aqua[type="reset"] {
+    background-color: aqua;
+}
