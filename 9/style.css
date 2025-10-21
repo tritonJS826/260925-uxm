@@ -1,0 +1,10 @@
+.numbered-list {
+    list-style-type: upper-roman;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+.numbered-list > li {
+    border: 2px solid purple;
+}
