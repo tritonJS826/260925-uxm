@@ -36,3 +36,11 @@ html {
 .display {
     font-family: diplay;
 }
+
+.block {
+    background-color: brown;
+    color: aqua;
+    width: 50ch;
+    text-indent: 20px;
+    text-align: right;
+}

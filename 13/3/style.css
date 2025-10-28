@@ -1,0 +1,40 @@
+
+
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 600px;
+    margin: auto;
+    text-align: justify;
+}
+
+.boy-image {
+    max-width: 600px;
+}
+
+.download-img {
+    width: 20px;
+}
+
+.button {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text{
+    font-size: 20px;
+    text-indent: 20px;
+    line-height: 1.5;
+}
+
+.strong{
+    color:#D60000;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
