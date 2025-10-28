@@ -1,0 +1,38 @@
+:root {
+    --default-text-size: 16px;
+    --small-text-size: 12px;
+    --default-landing-text-size: 18px;
+    --default-h1-size: 26px;  
+}
+
+html {
+    font-size: 16px;
+}
+
+.text {
+    font-size: 2em;
+}
+
+.h1 {
+    font-size: var(--default-h1-size);
+}
+
+.serif {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: var(--default-text-size);
+    line-height: 50px;
+    /* font-size: 1rem; */
+}
+
+.san-serif {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+}
+
+.script {
+    font-family: monospace;
+}
+
+.display {
+    font-family: diplay;
+}
