@@ -1,0 +1,45 @@
+
+:root {
+    --card-main-bg: aqua;
+    --footer-main-bg: aqua;
+
+    /* --bg-aqua: aqua; */
+
+    --sm-font: 16px;
+}
+
+.one {
+    font-size: var(--sm-font);
+    background-color: var(--card-main-bg);
+}
+.two {
+    font-size: 20px;
+    background-color: var(--card-main-bg);
+}
+.three {
+    font-size: 24px;
+    background-color: var(--card-main-bg);
+}
+.footer {
+    font-size: 28px;
+    background-color: var(--footer-main-bg);
+}
+
+
+
+.one {
+    font-size: 16px;
+    background-color: aqua;
+}
+.two {
+    font-size: 20px;
+    background-color: aqua;
+}
+.three {
+    font-size: 24px;
+    background-color: aqua;
+}
+.footer {
+    font-size: 28px;
+    background-color: aqua;
+}
