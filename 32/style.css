@@ -1,0 +1,122 @@
+.static {
+    position: static;
+    background-color: aquamarine;
+}
+
+.headerSticky {
+    position: sticky;
+    top: 0;
+    background-color: greenyellow;
+}
+
+.relative {
+    position: relative;
+    background-color: blue;
+    width: 600px;
+    bottom: 20px;
+    left: 40px;
+}
+
+.paragraph {
+    display: block;
+}
+
+.span {
+    display: none;
+}
+
+.customDisplay {
+    display: block;    
+}
+
+.parent {
+    background-color: pink;
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+
+.child-1 {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+}
+
+.child-2 {
+    position: absolute;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    top: 100px;
+    left: 100px;
+    opacity: 0.3;
+}
+
+.child-3 {
+    /* position: relative; */
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    /* z-index: 10; */
+}
+
+.child-4 {
+    position: absolute;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    top: 150px;
+    left: 150px;
+    opacity: 0.3;
+}
+
+.textZindex5 {
+    /* position: relative; */
+    /* z-index: 5; */
+    /* top: 20px; */
+    /* opacity: 0.1; */
+}
+
+.star {
+    position: absolute;
+    font-size: 50px;
+    right: 20px;
+    bottom: 20px;
+    top: 20px;
+}
+
+.button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fixedButton {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    padding: 50px;
+
+
+    &:hover {
+        background-color: red;
+    }
+}
+
+.placeholder {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    top: 0;
+    left: 0;
+    opacity: 0;
+
+    display: none;
+}
