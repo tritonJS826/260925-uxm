@@ -1,0 +1,120 @@
+.button-1 {
+    background-color: red;
+}
+
+.button-1:hover {
+    background-color: green;
+}
+
+.button-1:active {
+    background-color: rgb(3, 92, 3);
+}
+
+.button-1:focus {
+    background-color: rgb(3, 212, 3);
+}
+
+.button-1:focus-visible {
+    background-color: rgb(100, 3, 212);
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.input:focus {
+
+}
+
+.input {
+    margin-top: 20px;
+}
+
+
+.input:first-child {
+    margin-top: 0;
+}
+
+
+.link:link {
+    color: brown;
+}
+
+.link:visited {
+    color: rgb(85, 21, 21);
+}
+
+.custom-list {
+    width: 300px;
+    border: 2px solid black;
+}
+
+.list {
+    /* border-bottom: 2px solid black; */
+}
+
+.list:last-child {
+    border-bottom: none;
+}
+
+/* 2n: 0 2 4 6 ...*/
+/* 2n+1: 1 3 5 7 */
+.list:nth-child(2n+1) {
+    background-color: darkgray;
+}
+
+
+.list:nth-child(3n) {
+    background-color: rgb(75, 75, 75);
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.child:only-child {
+    background-color: aqua;
+}
+
+.input-checkbox:checked {
+    outline: 2px solid red;
+}
+
+.button {
+    background-color: gray;
+}
+
+.button.special {
+    background-color: blue;
+}
+/* .button:not(.special) {
+    background-color: gray;
+} */
+
+/* .button:nth-child(2) {
+    background-color: gray;
+} */
+
+
+.cards {
+    display: flex;
+    background-color: red;
+    height: 500px;
+    gap: 20px;
+}
+
+.cards:empty {
+    background-color: white;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
